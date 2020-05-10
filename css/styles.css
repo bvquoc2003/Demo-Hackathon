@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   display: flex;
+  font-family: sans-serif;
 }
 .bLeft {
   width: 300px;
@@ -95,12 +96,23 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
-.lItem {
-  min-width: 300px;
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
+.lItem, .status {
   margin: 0px 60px;
+  min-width: 300px;
+  display: flex;
+  /* align-items: left; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+/* .lItem div {
+  margin: 0px;
+} */
+.to, .last-change {
+  color: #9b9b9b
+}
+.title, .stt1 {
+  color: #4e4e4e;
 }
 .rItem {
   min-width: 300px;
@@ -110,9 +122,7 @@ button:hover {
   justify-content: flex-end;
   margin: 0px 60px;
 }
-.stt1 {
-  margin: 0px 60px;
-}
+
 
 .dropbtn {
   background-color: #fff;
