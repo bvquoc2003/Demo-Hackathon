@@ -9,7 +9,7 @@ var content = "";
 request("https://bvquoc2003.github.io/Demo-Hackathon/data.json", function (error, response, body) {
   console.error("error:", error);
   console.log("statusCode:", response && response.statusCode);
-  console.log(body); 
+//   console.log(body); 
   content = body;
 });
 
