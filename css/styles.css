@@ -105,6 +105,10 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin: 0px 60px;
+}
+.stt1 {
+  margin: 0px 60px;
 }
 /* .menu {
 	padding: 0px 60px;
@@ -115,7 +119,7 @@ button:hover {
   background-color: #fff;
   color: #444;
   padding: 5px 20px;
-  margin: 1px 60px;
+  /* margin: 1px 60px; */
   font-size: 16px;
   border: none;
   box-shadow: 0px 0px 1px 1px rgb(180, 180, 180);
