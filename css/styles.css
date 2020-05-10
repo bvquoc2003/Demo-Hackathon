@@ -3,7 +3,7 @@ body {
   display: flex;
 }
 .bLeft {
-  min-width: 300px;
+  width: 300px;
   background-color: #e8e8e8;
   min-height: 1000px;
 }
@@ -50,16 +50,18 @@ body {
 /* .quick-view {
 	margin: 0px 40px;
 } */
-ul {
-	list-style-type: none;
-	/* align-items: left; */
-}
-li {
-	/* padding: 8px 0px; */
+
+.btn {
+	display: block;
+	width: 300px;
 	height: 40px;
-	/* width: inherit; */
+	background-color: transparent;
+  border: none;
+  text-align: left;
+	text-decoration: none;
 }
-li:hover {
+
+button:hover {
 	background-color: #d5d5d5;
 	cursor: pointer;
 }
