@@ -1,15 +1,7 @@
-body {
-  margin: 0px;
-  font-family: sans-serif;
-  display: flex;
-  /* flex-direction: row;
-  justify-content: center;
-  align-content: center; */
-}
 .bLeft {
-  width: 300px;
   background-color: #e8e8e8;
   min-height: 1000px;
+  padding: 0px;
 }
 
 .bLeft div {
@@ -18,25 +10,54 @@ body {
   flex-direction: column;
 }
 .left-head {
-  /* background-color: #353535; */
   height: 80px;
+  /* background-color: gray; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .btn-new {
-  padding: 12px 80px;
-  margin: 20px 55px;
+  margin: auto auto;
   background-color: #f9c80c;
   border: none;
   text-align: center;
   text-decoration: none;
+  min-height: 40px;
+  min-width: 200px;
 }
 .btn-new:hover {
   background-color: #c7a003;
   cursor: pointer;
 }
-
-.b-right {
-  width: 1605px;
+.wv-title {
+    padding: 10px 0px 10px 38px;
 }
+.btn {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  text-decoration: none;
+  padding: 10px 0px 10px 40px;
+}
+.btn:hover {
+  background-color: #d5d5d5;
+  cursor: pointer;
+}
+
+
+.hItem {
+  margin: 0px 40px;
+  color: #707070;
+}
+
+
+.bRight {
+  margin: 0px;
+  padding: 0px;
+  min-height: 1000px;
+}
+
+
 .right {
   display: flex;
   align-items: center;
@@ -83,26 +104,6 @@ h10 {
 .hItem {
   margin: 0px 40px;
   color: #707070;
-}
-.quick-view h4 {
-  padding: 0px 0px 0px 40px;
-  font-family: sans-serif;
-}
-
-.mybtn {
-  display: inline-block;
-  width: 300px;
-  height: 40px;
-  background-color: transparent;
-  border: none;
-  text-align: left;
-  text-decoration: none;
-  padding: 0px 0px 0px 40px;
-}
-
-.mybtn:hover {
-  background-color: #d5d5d5;
-  cursor: pointer;
 }
 
 .item {
