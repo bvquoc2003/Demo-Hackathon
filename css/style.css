@@ -4,7 +4,7 @@
   padding: 0px;
 }
 
-.bLeft div {
+.bLeft > div {
   margin: 0px 0px 20px 0px;
   display: flex;
   flex-direction: column;
@@ -32,14 +32,14 @@
 .wv-title {
     padding: 10px 0px 10px 38px;
 }
-.btn {
+.lbtn {
   background-color: transparent;
   border: none;
   text-align: left;
   text-decoration: none;
   padding: 10px 0px 10px 40px;
 }
-.btn:hover {
+.lbtn:hover {
   background-color: #d5d5d5;
   cursor: pointer;
 }
