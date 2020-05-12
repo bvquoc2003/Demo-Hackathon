@@ -2,6 +2,7 @@
   background-color: #e8e8e8;
   /* min-height: 1000px; */
   padding: 0px;
+  margin: 0px;
 }
 
 .bLeft > div {
@@ -22,8 +23,9 @@
   border: none;
   text-align: center;
   text-decoration: none;
-  min-height: 40px;
-  min-width: 200px;
+  /* min-height: 30px; */
+  /* min-width: 400px; */
+  padding: 4px 40px;
 }
 .btn-new:hover {
   background-color: #c7a003;
