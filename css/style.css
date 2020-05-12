@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+body {
+  font-family: 'Baloo 2', cursive, sans-serif;
+}
+
 .bLeft {
   background-color: #e8e8e8;
   /* min-height: 1000px; */
@@ -103,10 +108,6 @@ h10 {
   align-items: center;
 }
 
-.hItem {
-  margin: 0px 40px;
-  color: #707070;
-}
 
 .item {
   height: 80px;
