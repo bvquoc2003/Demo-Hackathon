@@ -3,6 +3,11 @@ body {
   font-family: 'Baloo 2', cursive, sans-serif;
 }
 
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .bLeft {
   background-color: #e8e8e8;
   padding: 0px;
